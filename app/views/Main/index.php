@@ -32,12 +32,19 @@ use mvctest\base\View;
                             <hr>
                             <div class=""><?= $task->text ?></div>
                             <hr>
+
+                        </div>
+                        <div class="card-footer d-flex justify-content-between align-items-start">
                             <?php if ($task->completed == 0) : ?>
                                 <span class="badge badge-danger">Не выполнен</span>
                             <?php else : ?>
                                 <span class="badge badge-success">Выполнен</span>
                             <?php endif; ?>
-
+                            <?php if ($task->status == "created") : ?>
+                                <h6>Статус <span class="badge badge-secondary">Создан</span></h6>
+                            <?php elseif ($task->status == "modified") : ?>
+                                <h6>Статус <span class="badge badge-secondary">Изменен</span></h6>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>

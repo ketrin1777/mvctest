@@ -51,6 +51,8 @@ class MainController extends BaseController
     {
         $id = $_GET['id'];
         $model = R::findOne('task', "id = ?", [$id]);
+        $text = $model->text;
+        debug($text);
 
         if (!empty($_POST)) {
             $task = new Task();
@@ -58,6 +60,9 @@ class MainController extends BaseController
             $data = $_POST;
             if (!$data['completed']) {
                 $data['completed'] = 0;
+            }
+            if ($text != $data['text']) {
+                $data['status'] = 'modified';
             }
             
 

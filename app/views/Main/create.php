@@ -19,6 +19,11 @@
                     <!-- <label for="login">Login</label> -->
                     <textarea name="text" class="form-control" id="text" placeholder="text" rows="10"></textarea>
                 </div>
+
+                <div class="form-group d-none">
+                    <!-- <label for="login">Login</label> -->
+                    <input type="text" name="status" class="form-control" id="login" placeholder="email" value="created">
+                </div>
                 <button type="submit" class="btn btn-primary">Добавить</button>
             </form>
         </div>

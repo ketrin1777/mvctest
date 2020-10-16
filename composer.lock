@@ -49,16 +49,16 @@
         },
         {
             "name": "vlucas/valitron",
-            "version": "v1.4.7",
+            "version": "v1.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/valitron.git",
-                "reference": "a03072bed1679660200766d134507a30193eaf6d"
+                "reference": "9268adeeb48ba155e35dca861f5990283e14eafb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/valitron/zipball/a03072bed1679660200766d134507a30193eaf6d",
-                "reference": "a03072bed1679660200766d134507a30193eaf6d",
+                "url": "https://api.github.com/repos/vlucas/valitron/zipball/9268adeeb48ba155e35dca861f5990283e14eafb",
+                "reference": "9268adeeb48ba155e35dca861f5990283e14eafb",
                 "shasum": ""
             },
             "require": {
@@ -94,7 +94,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2019-08-29T19:49:43+00:00"
+            "time": "2020-07-10T08:55:05+00:00"
         }
     ],
     "packages-dev": [],
@@ -106,6 +106,5 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "platform-dev": []
 }

@@ -10,6 +10,7 @@ class Task extends AppModel
         'email' => '',
         'text' => '',
         'completed' => '',
+        'status' => '',
     ];
 
     public $rules = [

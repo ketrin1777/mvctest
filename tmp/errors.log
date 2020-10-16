@@ -146,3 +146,7 @@
 =================
 [2020-10-16 00:03:09] Текст ошибки: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'completed' at row 1 | Файл: /home/alex/domen/mvctest/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 202
 =================
+[2020-10-16 11:26:03] Текст ошибки: Страница не найдена | Файл: /home/art/domen/mvctest/vendor/mvctest/core/Router.php | Строка: 47
+=================
+[2020-10-16 11:42:53] Текст ошибки: syntax error, unexpected 'if' (T_IF), expecting ':' | Файл: /home/art/domen/mvctest/app/views/Main/index.php | Строка: 42
+=================
