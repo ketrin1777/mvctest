@@ -52,7 +52,7 @@ class MainController extends BaseController
         $id = $_GET['id'];
         $model = R::findOne('task', "id = ?", [$id]);
         $text = $model->text;
-        debug($text);
+        // debug($text);
 
         if (!empty($_POST)) {
             $task = new Task();
