@@ -21,12 +21,14 @@ class MainController extends BaseController
         if (!empty($_GET)) {
             $data = $_GET;
 
-            if ($data['type'] && $data['sort']) {
+            if (!empty($data['type']) && !empty($data['sort'])) {
 
                 $params = ' ORDER BY ' . $data['type'] . ' ' . $data['sort'];
                 $typeSort = $data['type'];
                 $sort = $data['sort'];
 
+            } else {
+                $params = null;
             }
         } else {
             $params = null;
